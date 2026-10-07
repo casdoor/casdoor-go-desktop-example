@@ -16,7 +16,7 @@ An example cross-platform desktop app in Go, built with [Fyne](https://fyne.io/)
 ## Prerequisites
 
 - Go 1.23+
-- A C compiler and the graphics libraries for Fyne, see [Fyne: getting started](https://docs.fyne.io/started/). For example on Ubuntu: `sudo apt install gcc libgl1-mesa-dev xorg-dev`; on Windows: [MSYS2](https://www.msys2.org/) or [TDM-GCC](https://jmeubank.github.io/tdm-gcc/)
+- A C compiler and the graphics libraries for Fyne, see [Fyne: getting started](https://docs.fyne.io/started/). For example on Ubuntu: `sudo apt install gcc libgl1-mesa-dev xorg-dev libwayland-dev libxkbcommon-dev`; on Windows: [MSYS2](https://www.msys2.org/) or [TDM-GCC](https://jmeubank.github.io/tdm-gcc/)
 - A Casdoor server. The example is preconfigured for the public demo server https://door.casdoor.com, so it runs as is. To use your own, see [Casdoor installation](https://casdoor.ai/docs/basic/server-installation).
 
 ## Configuration
